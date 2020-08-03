@@ -42,7 +42,7 @@ class App extends React.Component {
         })
         if (this.state.pageNumber >= this.state.totalPages) {
             this.setState({
-                //updating has more 
+                //updating hasmore 
                 hasMore: false
             })
         }
